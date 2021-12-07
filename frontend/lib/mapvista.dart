@@ -323,16 +323,12 @@ class _MapViewState extends State<MapView> {
   }
 
   barraBusqueda() {
-    Geolocator.getCurrentPosition(
-            desiredAccuracy: LocationAccuracy.best,
-            forceAndroidLocationManager: true)
-        .then((Position position) {
-      _googleMapController.animateCamera(
-        CameraUpdate.newCameraPosition(CameraPosition(
-          target: LatLng(position.latitude, position.longitude),
-          zoom: 10.0,
-        )),
-      );
+    Geolocator().placemarkFromAddress(buscarDireccion).then((result) {
+      _googleMapController.animateCamera(CameraUpdate.newCameraPosition(
+          CameraPosition(
+              target: LatLng(
+                  result[0].position.latitude, result[0].position.longitude),
+              zoom: 10.0)));
     });
   }
 }
