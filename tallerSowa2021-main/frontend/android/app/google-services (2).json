@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "959296347077",
+    "project_id": "ultimo-4611f",
+    "storage_bucket": "ultimo-4611f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:959296347077:android:b15fe61b1c69aac78949ac",
+        "android_client_info": {
+          "package_name": "com.android.application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "959296347077-i05j1d8ao4kfr25frr0kofjvpq1pbfjb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.application",
+            "certificate_hash": "d2d09fe5084bcd5f31d09ea21e20026a0c6d63e6"
+          }
+        },
+        {
+          "client_id": "959296347077-kt4plusrbhfog888h7ep97u3t6ebe1so.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdH6k65ys5NWG_6PQQEQjOal3WHW-RXJ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "959296347077-kt4plusrbhfog888h7ep97u3t6ebe1so.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

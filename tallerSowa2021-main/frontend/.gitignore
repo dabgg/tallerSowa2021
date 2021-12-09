@@ -1,0 +1,8 @@
+.flutter-plugins
+.flutter-plugins-dependencies
+.gitattributes
+backend/
+.dart_tool
+build
+assets
+ios
